@@ -24,12 +24,48 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="sph_fluid_system.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sph_grid_container.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sph_interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sph_math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sph_neighbor_table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sph_point_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SPH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sph_fluid_system - backup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sph_fluid_system.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sph_grid_container.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sph_marching_cube.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sph_neighbor_table.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sph_point_buffer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
